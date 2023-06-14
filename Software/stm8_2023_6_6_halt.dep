@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2347005774</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\List\stm8_2023_6_6_halt.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADS1115.o</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8mln.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADS1115.pbi</file>
+            <file>$TOOLKIT_DIR$\config\lnkstm8l051f3.icf</file>
+            <file>$PROJ_DIR$\STM8L051.c</file>
+            <file>$PROJ_DIR$\SGM58031\SGM58031.h</file>
+            <file>$PROJ_DIR$\VKL144\vkl144.c</file>
+            <file>$PROJ_DIR$\SGM58031\ADS1115.c</file>
+            <file>$PROJ_DIR$\SGM58031\ADS1115.h</file>
+            <file>$PROJ_DIR$\VKL144\VKL144.h</file>
+            <file>$PROJ_DIR$\SGM58031\SGM58031.c</file>
+            <file>$PROJ_DIR$\main.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\STM8L051.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\iostm8l051f3.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8mln.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\STM8L051.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\STM8L051.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\vkl144.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\vkl144.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\stm8_2023_6_6_halt.out</file>
+            <file>$TOOLKIT_DIR$\lib\dbgstm8mld.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SGM58031.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SGM58031.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8_2023_6_6_halt.pbd</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 31 1</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 19 21 5 17 24 4 2 33 8 6 25 26 9 37 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19 4 5 21 33 24 2 17 16 9 26 37 25 8 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM8L051.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 21 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\VKL144\vkl144.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 17 19 21 5 24 4 2 33 8 6 25 26 9 37 16 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4 2 17 37 25 6 3 19 16 24 21 5 8 9 33 26</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SGM58031\ADS1115.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 16 19 21 5 17 24 4 2 33 8 6 25 26 9 37</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 26 21 5 24 19 4 33 2 16 17 37 25 8 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SGM58031\SGM58031.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 13 19 21 5 17 24 4 2 33 8 6 25 26 9 37 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5 24 21 9 4 25 26 19 17 16 2 13 37 33 8 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\stm8_2023_6_6_halt.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 11 7 34 29 22 32</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
